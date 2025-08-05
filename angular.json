@@ -29,9 +29,37 @@
                 "input": "public"
               }
             ],
-            "styles": [
-              "src/styles.scss"
-            ],
+ "styles": [
+
+
+  "src/assets/css/linearicons.css",
+  "src/assets/css/font-awesome.min.css",
+  "src/assets/css/bootstrap/bootstrap.css",
+  "src/assets/css/magnific-popup.css",
+  "src/assets/css/nice-select.css",
+  "src/assets/css/animate.min.css",
+  "src/assets/css/owl.carousel.css",
+  "src/assets/css/jquery-ui.css",
+  "src/assets/css/main.css",
+  "src/styles.scss" 
+],
+"scripts": [
+  "src/assets/js/vendor/jquery-2.2.4.min.js",
+  "src/assets/js/vendor/bootstrap.min.js",
+  "src/assets/js/easing.min.js",
+  "src/assets/js/hoverIntent.js",
+  "src/assets/js/superfish.min.js",
+  "src/assets/js/jquery.ajaxchimp.min.js",
+  "src/assets/js/jquery.magnific-popup.min.js",
+  "src/assets/js/jquery.tabs.min.js",
+  "src/assets/js/jquery.nice-select.min.js",
+  "src/assets/js/owl.carousel.min.js",
+  "src/assets/js/mail-script.js",
+  "src/assets/js/main.js"
+],
+
+
+
             "server": "src/main.server.ts",
             "outputMode": "server",
             "ssr": {
@@ -99,5 +127,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
